@@ -22,7 +22,9 @@ python3 hours.py                                   # 개방시간 파서 자체 
 - `analysis.py`: 분석 전체 (`# %%` 셀 단위 실행 가능)
 - `hours.py`: 개방시간 문자열 → 시각별 개방 여부
 - `data/seoul_toilets.csv`: 서울 열린데이터광장 `mgisToiletPoi` (공공누리 1유형)
-- `public/`: Cloudflare Pages로 배포하는 결과 페이지
+- `public/`: 결과 페이지 (`wrangler deploy`로 Cloudflare에 배포, 설정은 `wrangler.jsonc`)
+
+배포 주소: https://toilet-desert.ysh001-cmd.workers.dev
 
 ## 출처
 서울특별시 공중화장실 위치정보 · 서울 생활인구(2025) · 통계청 SGIS 100m 격자 인구(2024) · vuski/admdongkor · © OpenStreetMap contributors
