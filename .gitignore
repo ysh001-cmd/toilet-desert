@@ -1,0 +1,6 @@
+data/raw/
+data/cache/
+data/*.graphml
+__pycache__/
+.DS_Store
+.dev.vars
